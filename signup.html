@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="./signup.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Sign Up</h1>
+    <form name="form1" method="post" id="signup-form">
+      <input type="text" name="username" id="username" placeholder="Username">
+      <span id="username-error" class="error"></span><br>
+      <input type="email" name="email" id="email" placeholder="Email">
+      <span id="email-error" class="error"></span><br>
+      <input type="password" name="password" id="password" placeholder="Password">
+      <span id="password-error" class="error"></span><br>
+      <input type="password" name="password2" id="password2" placeholder="Re-Enter Password">
+      <div id="password-strength" class="password-strength"></div>
+      <input type="tel" name="phone" id="phone" placeholder="Phone Number">
+      <span id="phone-error" class="error"></span><br>
+      <div class="terms">
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox">I agree to these <a href="#">Terms & Conditions</a></label>
+      </div>
+      <button type="submit">Sign Up</button>
+      <div class="member">
+        Already a member? <a href="./login.html">Login Here</a>
+      </div>
+    </form>
+    
+  </div>
+  <script src="./formValidation.js"></script>
+</body>
+</html>

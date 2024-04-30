@@ -1,0 +1,30 @@
+body{
+    background-color: #d0bdf4;
+}
+
+h1{
+    text-align: center;
+    font-family: monospace;
+    font-size: 45px;
+    text-decoration: underline;
+}
+h2{
+    text-align: center;
+
+}
+
+p{
+    text-align: justify;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+
+  }
+
+  img{
+    width: 400px;
+  }
+
